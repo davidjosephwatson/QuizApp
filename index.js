@@ -1,3 +1,5 @@
+$(function(){
+
 function getCurrentQuestionNumber() {
     return QUIZ.answers.length;
   }
@@ -15,6 +17,14 @@ function getCurrentQuestionNumber() {
   }
   
   function generateQuestion(question){
+    let liString = 
+    question.answers.map((answer, index) => {
+        return `
+        <li><input type="radio" 
+        id="${index}" 
+        value="${index}" 
+        name="answer">${answer.text}</li>`}
+        ).join('')
     return `
       <form>
         <fieldset>
@@ -22,13 +32,10 @@ function getCurrentQuestionNumber() {
             ${question.text}
           </legend>
           <ol>
-            ${question.answers.map((answer, index) =>
-            <li><input type="radio" 
-            id="${index}" 
-            value="${index}" 
-            name="answer">label</li>
-            ).join('\n')}
+            ${liString}
           </ol>
         </fieldset>  
       </form>`
   }
+
+})
