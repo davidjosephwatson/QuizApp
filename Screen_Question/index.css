@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Metrophobic', sans-serif;
+    background-color: #ffffff;
+    background: url('https://i.imgur.com/HVduB2C.jpg') fixed;
+    color: #363946;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    text-align: center;
+    margin: 0;
+}
+
+.logo {
+    height: auto;
+    width: 150px;
+}
+.title {
+    font-size: 40px;
+}
+header .question-score {
+    font-size: 20px;
+    font-weight: 600px;
+    background: none;
+  }
+  
+  .question-score ul {
+    text-align:center;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .question-score li {
+    display: inline-block;
+    padding:0 2%;
+  }
+  main {
+    width:80%;
+    padding: 40px;
+    margin:0 auto;
+    background:rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  
+  /* Want button in the middle */
+.submit-button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.submit-button:hover {
+    transition-duration: 0.4s;
+    background-color: grey;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.44), 0 17px 50px 0 rgba(0,0,0,0.38);
+}
+
