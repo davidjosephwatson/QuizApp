@@ -46,18 +46,16 @@ header .question-score {
     border-radius: 10px;
     text-align: center;
   }
-.next-button {
+.startButton {
     padding: 5px 10px;
     border-radius: 10px;
-    margin-top: 10px;
     font-size: 18px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
 }
-.next-button:hover {
+.startButton:hover {
     transition-duration: 0.4s;
     background-color: grey;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.44), 0 17px 50px 0 rgba(0,0,0,0.38);
 }
-.correct-img {
-  border-radius: 10px;
-}
+
