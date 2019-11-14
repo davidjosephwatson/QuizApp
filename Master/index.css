@@ -4,12 +4,20 @@
 body {
     font-family: 'Metrophobic', sans-serif;
     background-color: #ffffff;
-    background: url('https://i.imgur.com/HVduB2C.jpg') fixed;
     color: #363946;
-    background-position: center;
     background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://i.imgur.com/HVduB2C.jpg') fixed;
+    background-position: center;
     background-size: cover;
 }
+/* .screen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url('https://i.imgur.com/HVduB2C.jpg');
+  opacity: 0.75; */
+/* } */
+
 header {
     text-align: center;
     margin: 0;
@@ -35,6 +43,7 @@ header .question-score {
   .question-score li {
     display: inline-block;
     padding:0 2%;
+    color: white;
   }
   main {
     width:80%;
