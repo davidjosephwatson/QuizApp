@@ -37,154 +37,155 @@ const QUIZ = {
       ],
       correctAnswer: 'Tacking'
     },
-    {//3
-      text: 'What is the name of the line which is used to raise or lower the sails?',
-      answers: [
-        {
-          text: 'Sheet',
-        },
-        {
-          text: 'Teather',
-        },
-        {
-          text: 'Painter',
-        },
-        {
-          text: 'Halyard'
-        }  
-      ],
-      correctAnswer: 'Halyard'
-    },
-    {//4
-      text: 'When a sailboat is pointing directly into the wind and all forward momentum has ceased, the boat is said to be what?',
-      answers: [
-        {
-          text: 'Close hauled',      
-        },
-        {
-          text: 'Pointing',
-        },
-        {
-          text: 'In irons'
-        },
-        {
-          text: 'Stalled',
-        }
-      ],
-      correctAnswer: 'In irons'
-    },
-    {//5
-      text: 'When a sailboat "turtles", it is what?',
-      answers: [
-        {
-          text: 'Taking water over the bow',
-        },
-        {
-          text: 'Has dramatically slowed down',
-        },
-        {
-          text: 'Taking water of the stern',
-        },
-        {
-          text: 'Completely upside down',
-        } 
-      ],
-      correctAnswer: 'Completely upside down'
-    },
-    {//6
-      text: 'Which of the following is not a type of sailboat?',
-      answers: [
-        {
-          text: 'Yawl',
-        },
-        {
-          text: 'Tabernacle'
-        },
-        {
-          text: 'Schooner',
-        },
-        {
-          text: 'Dinghy',
-        } 
-      ],
-      correctAnswer: 'Tabernacle'
-    },
-    {//7
-      text: 'A sailing vessel which is under sail usually has the right of way over all of the following except what?',
-      answers: [
-        {
-          text: 'A container ship'
-        },
-        {
-          text: 'Another boat approaching from the left',
-        },
-        {
-          text: 'A similar sized vessel which is being powered by a motor',
-        },
-        {
-          text: 'A jet ski',
-        } 
-      ],
-      correctAnswer: 'A container ship'
-    },
-    {//8
-      text: 'You are returning to port after a day of sailing. Ahead of you is a channel marked by colored buoys. How should you enter the channel?',
-      answers: [
-        {
-          text: 'With all of the buoys on your left',
-        },
-        {
-          text: 'To the left of the black and white buoy and to the left of the green buoy',
-        },
-        {
-          text: 'To the right of the black and white buoy and to the left of the red buoy',
-        },
-        {
-          text: 'Anywhere you want as long as you stay between the buoys',
-        } 
-      ],
-      correctAnswer: 'To the right of the black and white buoy and to the left of the red buoy'
-    },
-    {//9
-      text: 'The lines which are used to control a sails direction in relation to the direction of the wind are called what?',
-      answers: [
-        {
-          text: 'Sheets'
-        },
-        {
-          text: 'Halyards',
-        },
-        {
-          text: 'Ropes',
-        },
-        {
-          text: 'Outhaul',
-        } 
-      ],
-      correctAnswer: 'Sheets'
-    },
-    {//10
-      text: 'Most sails have three corners. Which of the following is not the name of one of the corners?',
-      answers: [
-        {
-          text: 'Head',
-        },
-        {
-          text: 'Luff',
-        },
-        {
-          text: 'Tack',
-        },
-        {
-          text: 'Clew',
-        } 
-      ],
-      correctAnswer: 'Luff'
-    }
+    // {//3
+    //   text: 'What is the name of the line which is used to raise or lower the sails?',
+    //   answers: [
+    //     {
+    //       text: 'Sheet',
+    //     },
+    //     {
+    //       text: 'Teather',
+    //     },
+    //     {
+    //       text: 'Painter',
+    //     },
+    //     {
+    //       text: 'Halyard'
+    //     }  
+    //   ],
+    //   correctAnswer: 'Halyard'
+    // },
+    // {//4
+    //   text: 'When a sailboat is pointing directly into the wind and all forward momentum has ceased, the boat is said to be what?',
+    //   answers: [
+    //     {
+    //       text: 'Close hauled',      
+    //     },
+    //     {
+    //       text: 'Pointing',
+    //     },
+    //     {
+    //       text: 'In irons'
+    //     },
+    //     {
+    //       text: 'Stalled',
+    //     }
+    //   ],
+    //   correctAnswer: 'In irons'
+    // },
+    // {//5
+    //   text: 'When a sailboat "turtles", it is what?',
+    //   answers: [
+    //     {
+    //       text: 'Taking water over the bow',
+    //     },
+    //     {
+    //       text: 'Has dramatically slowed down',
+    //     },
+    //     {
+    //       text: 'Taking water of the stern',
+    //     },
+    //     {
+    //       text: 'Completely upside down',
+    //     } 
+    //   ],
+    //   correctAnswer: 'Completely upside down'
+    // },
+    // {//6
+    //   text: 'Which of the following is not a type of sailboat?',
+    //   answers: [
+    //     {
+    //       text: 'Yawl',
+    //     },
+    //     {
+    //       text: 'Tabernacle'
+    //     },
+    //     {
+    //       text: 'Schooner',
+    //     },
+    //     {
+    //       text: 'Dinghy',
+    //     } 
+    //   ],
+    //   correctAnswer: 'Tabernacle'
+    // },
+    // {//7
+    //   text: 'A sailing vessel which is under sail usually has the right of way over all of the following except what?',
+    //   answers: [
+    //     {
+    //       text: 'A container ship'
+    //     },
+    //     {
+    //       text: 'Another boat approaching from the left',
+    //     },
+    //     {
+    //       text: 'A similar sized vessel which is being powered by a motor',
+    //     },
+    //     {
+    //       text: 'A jet ski',
+    //     } 
+    //   ],
+    //   correctAnswer: 'A container ship'
+    // },
+    // {//8
+    //   text: 'You are returning to port after a day of sailing. Ahead of you is a channel marked by colored buoys. How should you enter the channel?',
+    //   answers: [
+    //     {
+    //       text: 'With all of the buoys on your left',
+    //     },
+    //     {
+    //       text: 'To the left of the black and white buoy and to the left of the green buoy',
+    //     },
+    //     {
+    //       text: 'To the right of the black and white buoy and to the left of the red buoy',
+    //     },
+    //     {
+    //       text: 'Anywhere you want as long as you stay between the buoys',
+    //     } 
+    //   ],
+    //   correctAnswer: 'To the right of the black and white buoy and to the left of the red buoy'
+    // },
+    // {//9
+    //   text: 'The lines which are used to control a sails direction in relation to the direction of the wind are called what?',
+    //   answers: [
+    //     {
+    //       text: 'Sheets'
+    //     },
+    //     {
+    //       text: 'Halyards',
+    //     },
+    //     {
+    //       text: 'Ropes',
+    //     },
+    //     {
+    //       text: 'Outhaul',
+    //     } 
+    //   ],
+    //   correctAnswer: 'Sheets'
+    // },
+    // {//10
+    //   text: 'Most sails have three corners. Which of the following is not the name of one of the corners?',
+    //   answers: [
+    //     {
+    //       text: 'Head',
+    //     },
+    //     {
+    //       text: 'Luff',
+    //     },
+    //     {
+    //       text: 'Tack',
+    //     },
+    //     {
+    //       text: 'Clew',
+    //     } 
+    //   ],
+    //   correctAnswer: 'Luff'
+    // }
   ],
   currentQuestion: 0,
   score: 0
 }
+
 function getCurrentQuestionNumber() {
     return QUIZ.currentQuestion;
   }
@@ -207,10 +208,13 @@ function generateQuestion(question){
   let liString = 
   question.answers.map((answer, index) => {
     return `
-      <li><input type="radio" 
-      id="${index}" 
-      value="${answer.text}" 
-      name="answer">${answer.text}</li>`}
+      <li>
+        <label for="answer">
+          <input type="radio" 
+          id="${index}" 
+          value="${answer.text}"
+          name="answer">${answer.text}</label>
+      </li>`}
       ).join('')
     return `
       <form id="quiz-question">
@@ -220,9 +224,10 @@ function generateQuestion(question){
               ${question.text}
             </legend>
             <ol class="answer-list">
-              ${liString}
+              <label for="answer" class="answer-buttons">${liString}</label>
             </ol>
-          </div>  
+          </div> 
+          <label for="submit"></label> 
           <input type="submit" class="submit-button button"/>
         </fieldset>  
       </form>`
@@ -235,7 +240,9 @@ function generateCorrectPage() {
       <div>
         <img src="./images/gqBfSZ5E_400x400.jpg" alt="correct" class="correct-img">
       </div>
-      <button type="button" class="next-button button">Next</button>
+      <button type="button" class="next-button button">
+        <label for="next button">Next</label>
+      </button>
     </div>`
   );
 }
@@ -244,10 +251,13 @@ function generateWrongPage() {
   $(".response-form").html(
     `<div class="wrong-screen">
       <h2>THAT IS WRONG!</h2>
+      <h3>The correct answer is ${QUIZ.questions[QUIZ.currentQuestion].correctAnswer}.</h3>
       <div>
         <img src="./images/wreck.jpg" alt="wrong" class="wrong-img">
       </div>
-      <button type="button" class="next-button button">Next</button>
+      <button type="button" class="next-button button">
+        <label for="next button">Next</label>
+      </button>
     </div>`
   );
 }
@@ -257,7 +267,9 @@ function generateFinalPage() {
     `<div class="final-screen">
       <h2>ALL DONE!</h2>
       <h2>You scored ${QUIZ.score} out of 10</h2>
-      <input type="button" class="button restart" value="Restart" />
+      <button type="button" class="button restart">
+        <label for="button restart">Restart</label>
+      </button>
     </div>`
   );
 }
@@ -316,10 +328,10 @@ function addEventListeners() {
       if (userInput === correctAnswer) {
         QUIZ.score++;
       }
-      QUIZ.currentQuestion++;
-      updateScore();
       $("#quiz-question").hide();
       insertResponsePage(userInput, correctAnswer);
+      QUIZ.currentQuestion++;
+      updateScore();
     }
   })
 }
