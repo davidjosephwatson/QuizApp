@@ -209,8 +209,9 @@ function generateQuestion(question){
   question.answers.map((answer, index) => {
     return `
       <li>
-        <label for="answer">
-          <input type="radio" 
+        <label class="answer-choice" for="${index}">
+          <input type="radio"
+          class="answer-choice"  
           id="${index}" 
           value="${answer.text}"
           name="answer">${answer.text}</label>
@@ -224,7 +225,7 @@ function generateQuestion(question){
               ${question.text}
             </legend>
             <ol class="answer-list">
-              <label for="answer" class="answer-buttons">${liString}</label>
+              <label for="answer">${liString}</label>
             </ol>
           </div> 
           <label for="submit"></label> 
@@ -240,9 +241,7 @@ function generateCorrectPage() {
       <div>
         <img src="./images/gqBfSZ5E_400x400.jpg" alt="correct" class="correct-img">
       </div>
-      <button type="button" class="next-button button">
-        <label for="next button">Next</label>
-      </button>
+      <button type="button" class="next-button button">Next</button>
     </div>`
   );
 }
@@ -255,9 +254,7 @@ function generateWrongPage() {
       <div>
         <img src="./images/wreck.jpg" alt="wrong" class="wrong-img">
       </div>
-      <button type="button" class="next-button button">
-        <label for="next button">Next</label>
-      </button>
+      <button type="button" class="next-button button">Next</button>
     </div>`
   );
 }

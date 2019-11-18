@@ -52,10 +52,14 @@ main {
   text-align: left;
   font-size: 20px;
   font-weight: 600px;
-  cursor: pointer;
 }
+
 .answer-list {
   list-style: none;
+}
+
+.answer-choice {
+  cursor: pointer;
 }
 
 fieldset {
