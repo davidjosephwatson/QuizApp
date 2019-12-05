@@ -2,7 +2,7 @@
 const QUIZ = {
   questions: [
     {//1
-      text: 'The large usually colorful triangular sail used while running with the wind is calld the what?',
+      text: 'The large usually colorful triangular sail used while running with the wind is called the what?',
       answers: [
         {
           text: 'Spinnaker'
@@ -202,6 +202,7 @@ function insertQuestion() {
   let currentQuestion = getCurrentQuestion();
   let question = generateQuestion(currentQuestion);
   $(".question-answer-form").html(question);
+  updateScore();
 }
 
 function generateQuestion(question){
@@ -328,7 +329,6 @@ function addEventListeners() {
       $("#quiz-question").hide();
       insertResponsePage(userInput, correctAnswer);
       QUIZ.currentQuestion++;
-      updateScore();
     }
   })
 }
@@ -340,7 +340,6 @@ function updateScore() {
     <li>Score: <span class="score">${QUIZ.score}</span></li>
   </ul>`)
 }
-
 
 function init() {
   addEventListeners();
